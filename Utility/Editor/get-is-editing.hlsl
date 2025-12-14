@@ -2,7 +2,7 @@
 #ifndef ISEDITING_INCLUDED
 #define ISEDITING_INCLUDED
 
-int _ISEDITING;
+int _ISEDITING = 1;
 
 void getIsEditing_float(out int isEditing)
 {
