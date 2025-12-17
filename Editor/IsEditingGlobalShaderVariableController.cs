@@ -15,20 +15,16 @@ public static class IsEditingGlobalShaderVariableController
         switch (change)
         {
             case PlayModeStateChange.EnteredEditMode:
-                //Shader.SetGlobalInteger("_ISEDITING", 1);
-								Shader.SetGlobalInteger("_ISEDITING", 2);
+                Shader.SetGlobalInteger("_ISEDITING", 1);
                 break;
             case PlayModeStateChange.ExitingEditMode:
-                //Shader.SetGlobalInteger("_ISEDITING", 0);
-								Shader.SetGlobalInteger("_ISEDITING", 3);
+                Shader.SetGlobalInteger("_ISEDITING", 0);
                 break;
             case PlayModeStateChange.EnteredPlayMode:
-                //Shader.SetGlobalInteger("_ISEDITING", 0);
-								Shader.SetGlobalInteger("_ISEDITING", 4);
+                Shader.SetGlobalInteger("_ISEDITING", 0);
                 break;
             case PlayModeStateChange.ExitingPlayMode:
-                //Shader.SetGlobalInteger("_ISEDITING", 1);
-								Shader.SetGlobalInteger("_ISEDITING", 5);
+                Shader.SetGlobalInteger("_ISEDITING", 1);
                 break;
             default:
                 break;
