@@ -1,6 +1,6 @@
 {
   "name": "com.yeaulian.shadergraph-utilities",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Shader Graph Utilities",
   "description": "Contains useful utilities nodes and scripts for an improved experience working with Shadergraph.",
   "unity": "2022.3",
